@@ -1,6 +1,17 @@
 # Node.js Playground
 This is my Node.js playground.
 
+Run the following commands to run locally:
+
+    git clone https://github.com/pyk/node-playground.git
+    cd node-playground
+    npm install
+
+There are a plugins for VS Code that useful:
+
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+  This plugin will helps you to catch a typo/error without running the code.
+
 
 ## Const
 In this section we will talk about `const` because it is commonly
@@ -16,9 +27,9 @@ error.
 
 ```javascript
 // const.js
-const number = 10
+const number = 10;
 
-number = 2
+number = 2;
 ```
 
 Run:
