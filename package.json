@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/pyk/node-playground/issues"
   },
-  "homepage": "https://github.com/pyk/node-playground#readme"
+  "homepage": "https://github.com/pyk/node-playground#readme",
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  }
 }
